@@ -6,4 +6,5 @@ SMTP_HOST=smtp host name
 SMTP_PORT=smtp port number
 SMTP_USER=smtp mailbox name
 SMTP_PASSWORD=smtp mailbox password
-API_URL=api url 
+API_URL=api url
+CLIENT_URL=client url 
