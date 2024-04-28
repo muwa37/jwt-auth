@@ -44,6 +44,9 @@ const App: FC = () => {
     <div>
       <div>
         <h1>user authorized as {store.user.email}</h1>
+        <h1>
+          {store.user.isActivated ? 'acc activated' : 'acc not activated'}
+        </h1>
         <button onClick={onLogoutClickHandler}>logout</button>
       </div>
       <div>
